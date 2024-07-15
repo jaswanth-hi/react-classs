@@ -1,0 +1,36 @@
+.button{
+    color: aquamarine;
+    background-color: blue;
+
+}
+.card{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+
+}
+.navabar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: brown;
+    padding-left: 20px;
+}
+.cards{
+    border: 2px solid black;
+    height: 1000px;
+    width: 420px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+    
+    
+   
+}
+.bat{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   
+    
+    
+}
