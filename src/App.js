@@ -5,6 +5,7 @@ import Style from './compoent/style/style';
 import Psp from './compoent/july11/task';
 import All from './compoent/july11/add_files';
 import Nave from './compoent/july11/nava';
+import Pawan from './compoent/july11/footer';
 
 const App=()=> {
     return(
@@ -14,6 +15,7 @@ const App=()=> {
             <All>
                 
             </All>
+            <Pawan></Pawan>
 
             
            
