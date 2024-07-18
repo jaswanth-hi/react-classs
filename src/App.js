@@ -4,15 +4,31 @@ import Ter from './compoent/july15/conditional';
 import Based from './compoent/july15/classcompoent';
 import Qas from './compoent/july15/tasks';
 import Cont from './compoent/july15/color';
-
+import CompentSubscribe from './compoent/july16/subscribe';
+import Logincompent from './compoent/july16/islogin';
+import TodoCompoent from './compoent/july16/istodo';
+import CounterCompoent from './compoent/july16/counter';
+import SquareCompoent from './compoent/july16/square';
+import Apicall from './compoent/july16/fetch';
+import Iplteam from './compoent/july16/ipl/iplbar';
+import BasicExample from './compoent/july16/ipl/bar';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
     <div>
       {/* <Ter></Ter>
       <Based></Based> */}
-      <Qas con={Was} />
-      <Cont></Cont>
+      {/* <Qas con={Was} />
+      <Cont></Cont> */}
+      {/* <CompentSubscribe></CompentSubscribe> */}
+      {/* <Logincompent></Logincompent> */}
+      {/* <TodoCompoent></TodoCompoent> */}
+      {/* <CompentSubscribe></CompentSubscribe> */}
+      {/* <CounterCompoent></CounterCompoent> */}
+      {/* <SquareCompoent></SquareCompoent> */}
+      <Apicall></Apicall>
+      {/* <Iplteam></Iplteam> */}
+      {/* <BasicExample></BasicExample> */}
 
 
     </div>
