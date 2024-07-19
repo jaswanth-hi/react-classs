@@ -1,7 +1,8 @@
+import axios from "axios";
 import { Component } from "react";
 
 
-class Apicall extends Component{
+class Apicalls extends Component{
     state={
         products:[],
         loader:true,
@@ -10,31 +11,50 @@ class Apicall extends Component{
     // api=()=>{
     //     fetch("https://fakestoreapi.com/products").then(rev=>rev.json()).then((goat)=>this.setState({products:goat,loader:false}))
     // }
-    api=async()=>{
-        try{
-            let response=await fetch("https://fakestoreapi.com/products");
-       let final=await response.json();
-       this.setState({
-        products:final,
-        loader:false,
+    // api=async()=>{
+    //     try{
+    //         let response=await fetch("https://fakestoreapi.com/products");
+    //    let final=await response.json();
+    //    this.setState({
+    //     products:final,
+    //     loader:false,
 
-       });
+    //    });
        
 
-        }catch(error){
+    //     }catch(error){
+    //         this.setState({
+    //             error:true,
+    //         })
+
+    //     }finally{
+    //         this.setState({
+    //             loader:false,
+                
+    //         })
+    //     }
+       
+
+       
+    // }
+    api= async()=>{
+        try{
+              const response = await axios.get("https://fakestoreapi.com/products")
+              console.log(response);
+                if(response.status===200){
+                      this.setState({
+                          products:response.data,
+                           loader:false,
+                        })
+                }
+        }catch(err){
             this.setState({
                 error:true,
-            })
-
-        }finally{
-            this.setState({
                 loader:false,
-                
+
             })
         }
-       
-
-       
+    
     }
     
 
@@ -76,4 +96,4 @@ class Apicall extends Component{
         )
     }
 }
-export default Apicall;
+export default Apicalls;

@@ -12,6 +12,10 @@ import SquareCompoent from './compoent/july16/square';
 import Apicall from './compoent/july16/fetch';
 import Iplteam from './compoent/july16/ipl/iplbar';
 import BasicExample from './compoent/july16/ipl/bar';
+import Apicalls from './compoent/july18/fetchs';
+import Recipes from './compoent/july18/recipes';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Countryapi from './compoent/july18/country';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
@@ -26,9 +30,12 @@ function App() {
       {/* <CompentSubscribe></CompentSubscribe> */}
       {/* <CounterCompoent></CounterCompoent> */}
       {/* <SquareCompoent></SquareCompoent> */}
-      <Apicall></Apicall>
+      {/* <Apicall></Apicall> */}
       {/* <Iplteam></Iplteam> */}
       {/* <BasicExample></BasicExample> */}
+      {/* <Apicalls></Apicalls> */}
+      {/* <Recipes></Recipes> */}
+      <Countryapi></Countryapi>
 
 
     </div>
