@@ -16,6 +16,9 @@ import Apicalls from './compoent/july18/fetchs';
 import Recipes from './compoent/july18/recipes';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Countryapi from './compoent/july18/country';
+import Mountingphase from './compoent/july19/mounting';
+import Updatingpase from './compoent/july19/updating';
+import Unmounting from './compoent/july19/unmounting';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
@@ -35,7 +38,10 @@ function App() {
       {/* <BasicExample></BasicExample> */}
       {/* <Apicalls></Apicalls> */}
       {/* <Recipes></Recipes> */}
-      <Countryapi></Countryapi>
+      {/* <Countryapi></Countryapi> */}
+      {/* <Mountingphase  my={"pink"}/> */}
+      {/* <Updatingpase></Updatingpase> */}
+      <Unmounting></Unmounting>
 
 
     </div>
