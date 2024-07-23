@@ -19,6 +19,8 @@ import Countryapi from './compoent/july18/country';
 import Mountingphase from './compoent/july19/mounting';
 import Updatingpase from './compoent/july19/updating';
 import Unmounting from './compoent/july19/unmounting';
+import Cardsapi from './compoent/july22/typicode';
+import Parents from './compoent/july22/purecompoent/parent';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
@@ -41,7 +43,9 @@ function App() {
       {/* <Countryapi></Countryapi> */}
       {/* <Mountingphase  my={"pink"}/> */}
       {/* <Updatingpase></Updatingpase> */}
-      <Unmounting></Unmounting>
+      {/* <Unmounting></Unmounting> */}
+      <Cardsapi></Cardsapi>
+      {/* <Parents></Parents> */}
 
 
     </div>
