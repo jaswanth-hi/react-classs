@@ -21,14 +21,20 @@ import Updatingpase from './compoent/july19/updating';
 import Unmounting from './compoent/july19/unmounting';
 import Cardsapi from './compoent/july22/typicode';
 import Parents from './compoent/july22/purecompoent/parent';
+import Useapp from './compoent/july23/hooks/usestate/usestateexample';
+import User2 from './compoent/july23/hooks/usestateex2';
+import Userabc from './compoent/july23/hooks/tasks23/recipetableusing usestate';
+import Bat from './compoent/july23/hooks/tasks23/tables';
+import Squarels from './compoent/july23/hooks/tasks23/square';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
     <div>
+      {/* <Squarels></Squarels> */}
       {/* <Ter></Ter>
       <Based></Based> */}
       {/* <Qas con={Was} />
-      <Cont></Cont> */}
+      
       {/* <CompentSubscribe></CompentSubscribe> */}
       {/* <Logincompent></Logincompent> */}
       {/* <TodoCompoent></TodoCompoent> */}
@@ -44,9 +50,15 @@ function App() {
       {/* <Mountingphase  my={"pink"}/> */}
       {/* <Updatingpase></Updatingpase> */}
       {/* <Unmounting></Unmounting> */}
-      <Cardsapi></Cardsapi>
+      {/* <Cardsapi></Cardsapi> */}
       {/* <Parents></Parents> */}
-
+      {/* <Useapp></Useapp> */}
+      {/* <User2></User2> */}
+      {/* <Userabc></Userabc> */}
+      {/* <Bat></Bat> */}
+      {/* <Cont></Cont>  */}
+      <Squarels></Squarels>
+     
 
     </div>
   );
