@@ -26,6 +26,11 @@ import User2 from './compoent/july23/hooks/usestateex2';
 import Userabc from './compoent/july23/hooks/tasks23/recipetableusing usestate';
 import Bat from './compoent/july23/hooks/tasks23/tables';
 import Squarels from './compoent/july23/hooks/tasks23/square';
+import Timers from './compoent/july24/usestate ex3';
+import Usereffects from './compoent/july24/useeffectcase1';
+import Usereffectss from './compoent/july24/useeffectcase2';
+import Recipeseffect from './compoent/july24/task/recipesuseeffect';
+import Weather from './compoent/july24/task/weather';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
@@ -57,8 +62,13 @@ function App() {
       {/* <Userabc></Userabc> */}
       {/* <Bat></Bat> */}
       {/* <Cont></Cont>  */}
-      <Squarels></Squarels>
-     
+      {/* <Squarels></Squarels> */}
+      {/* <Timers></Timers> */}
+      {/* <Usereffects></Usereffects> */}
+      {/* <Usereffectss></Usereffectss> */}
+      {/* <Recipeseffect></Recipeseffect>
+      */}
+      <Weather></Weather>
 
     </div>
   );
