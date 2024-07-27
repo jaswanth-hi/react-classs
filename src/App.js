@@ -31,13 +31,19 @@ import Usereffects from './compoent/july24/useeffectcase1';
 import Usereffectss from './compoent/july24/useeffectcase2';
 import Recipeseffect from './compoent/july24/task/recipesuseeffect';
 import Weather from './compoent/july24/task/weather';
+import Useappss from './compoent/july25/use effect ex3,4';
+import Uncontrolled from './compoent/july25/formvalidations(uncontrolled)';
+import Formss from './compoent/july25/formvalidation(uncontrolled by api calling)';
+import Regfrom from './compoent/july25/tasks25/registerform';
+import Samsungform from './compoent/july25/tasks25/Samsung ';
+import Formva from './compoent/july25/tasks25/table';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
     <div>
       {/* <Squarels></Squarels> */}
       {/* <Ter></Ter>
-      <Based></Based> */}
+      // <Based></Based> */}
       {/* <Qas con={Was} />
       
       {/* <CompentSubscribe></CompentSubscribe> */}
@@ -68,7 +74,14 @@ function App() {
       {/* <Usereffectss></Usereffectss> */}
       {/* <Recipeseffect></Recipeseffect>
       */}
-      <Weather></Weather>
+      {/* <Weather></Weather> */}
+      {/* <Useappss></Useappss> */}
+      {/* <Unmounting></Unmounting> */}
+      {/* <Uncontrolled></Uncontrolled> */}
+      {/* <Formss></Formss> */}
+      {/* <Regfrom></Regfrom> */}
+      {/* <Samsungform></Samsungform> */}
+      {/* <Formva></Formva> */}
 
     </div>
   );
