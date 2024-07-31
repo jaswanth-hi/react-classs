@@ -25,7 +25,7 @@ const SamsungForm = () => {
         const nameEnter = name.current.value;
         const mobileNumberEnter = mobileNumber.current.value;
 
-        if (/samsung/gi.test(mobileBrandEnter) && mobileModelEnter && imeiEnter && nameEnter && mobileNumberEnter) {
+        if (/[A-Z]amsung/gi.test(mobileBrandEnter) && mobileModelEnter && imeiEnter && nameEnter && mobileNumberEnter) {
             alert("Successful");
             setError(null);
 

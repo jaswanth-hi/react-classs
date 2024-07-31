@@ -37,52 +37,64 @@ import Formss from './compoent/july25/formvalidation(uncontrolled by api calling
 import Regfrom from './compoent/july25/tasks25/registerform';
 import Samsungform from './compoent/july25/tasks25/Samsung ';
 import Formva from './compoent/july25/tasks25/table';
+import Formssexp from './compoent/july26/uncon(api calling)';
+import Controlled from './compoent/july26/controlled compoent';
+import ControlledReg from './compoent/july26/task/reg(contr)';
+import NavigationStack from './compoent/navigations/navigations';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
-    <div>
-      {/* <Squarels></Squarels> */}
-      {/* <Ter></Ter>
-      // <Based></Based> */}
-      {/* <Qas con={Was} />
+    // <div>
+    //   {/* <Squarels></Squarels> */}
+    //   {/* <Ter></Ter>
+    //   // <Based></Based> */}
+    //   {/* <Qas con={Was} />
       
-      {/* <CompentSubscribe></CompentSubscribe> */}
-      {/* <Logincompent></Logincompent> */}
-      {/* <TodoCompoent></TodoCompoent> */}
-      {/* <CompentSubscribe></CompentSubscribe> */}
-      {/* <CounterCompoent></CounterCompoent> */}
-      {/* <SquareCompoent></SquareCompoent> */}
-      {/* <Apicall></Apicall> */}
-      {/* <Iplteam></Iplteam> */}
-      {/* <BasicExample></BasicExample> */}
-      {/* <Apicalls></Apicalls> */}
-      {/* <Recipes></Recipes> */}
-      {/* <Countryapi></Countryapi> */}
-      {/* <Mountingphase  my={"pink"}/> */}
-      {/* <Updatingpase></Updatingpase> */}
-      {/* <Unmounting></Unmounting> */}
-      {/* <Cardsapi></Cardsapi> */}
-      {/* <Parents></Parents> */}
-      {/* <Useapp></Useapp> */}
-      {/* <User2></User2> */}
-      {/* <Userabc></Userabc> */}
-      {/* <Bat></Bat> */}
-      {/* <Cont></Cont>  */}
-      {/* <Squarels></Squarels> */}
-      {/* <Timers></Timers> */}
-      {/* <Usereffects></Usereffects> */}
-      {/* <Usereffectss></Usereffectss> */}
-      {/* <Recipeseffect></Recipeseffect>
-      */}
-      {/* <Weather></Weather> */}
-      {/* <Useappss></Useappss> */}
-      {/* <Unmounting></Unmounting> */}
-      {/* <Uncontrolled></Uncontrolled> */}
-      {/* <Formss></Formss> */}
-      {/* <Regfrom></Regfrom> */}
-      {/* <Samsungform></Samsungform> */}
-      {/* <Formva></Formva> */}
+    //   {/* <CompentSubscribe></CompentSubscribe> */}
+    //   {/* <Logincompent></Logincompent> */}
+    //   {/* <TodoCompoent></TodoCompoent> */}
+    //   {/* <CompentSubscribe></CompentSubscribe> */}
+    //   {/* <CounterCompoent></CounterCompoent> */}
+    //   {/* <SquareCompoent></SquareCompoent> */}
+    //   {/* <Apicall></Apicall> */}
+    //   {/* <Iplteam></Iplteam> */}
+    //   {/* <BasicExample></BasicExample> */}
+    //   {/* <Apicalls></Apicalls> */}
+    //   {/* <Recipes></Recipes> */}
+    //   {/* <Countryapi></Countryapi> */}
+    //   {/* <Mountingphase  my={"pink"}/> */}
+    //   {/* <Updatingpase></Updatingpase> */}
+    //   {/* <Unmounting></Unmounting> */}
+    //   {/* <Cardsapi></Cardsapi> */}
+    //   {/* <Parents></Parents> */}
+    //   {/* <Useapp></Useapp> */}
+    //   {/* <User2></User2> */}
+    //   {/* <Userabc></Userabc> */}
+    //   {/* <Bat></Bat> */}
+    //   {/* <Cont></Cont>  */}
+    //   {/* <Squarels></Squarels> */}
+    //   {/* <Timers></Timers> */}
+    //   {/* <Usereffects></Usereffects> */}
+    //   {/* <Usereffectss></Usereffectss> */}
+    //   {/* <Recipeseffect></Recipeseffect>
+    //   */}
+    //   {/* <Weather></Weather> */}
+    //   {/* <Useappss></Useappss> */}
+    //   {/* <Unmounting></Unmounting> */}
+    //   {/* <Uncontrolled></Uncontrolled> */}
+    //   {/* <Formss></Formss> */}
+    //   {/* <Regfrom></Regfrom> */}
+    //   {/* <Samsungform></Samsungform> */}
+    //   {/* <Formva></Formva> */}
+    //   {/* <Formssexp></Formssexp> */}
+    //   {/* <Controlled></Controlled> */}
+    //   {/* <ControlledReg></ControlledReg> */}
+     
 
+     
+    // </div>
+    <div>
+      <NavigationStack></NavigationStack>
     </div>
   );
 }
