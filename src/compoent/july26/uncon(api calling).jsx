@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 
 
-const Formssexp=()=>{
+const Formssexpss=()=>{
     const username=useRef();
     const passwords=useRef();
     const [ee,setss]=useState(null);
@@ -94,4 +94,4 @@ const Formssexp=()=>{
         
     )
 }
-export default Formssexp;
+export default Formssexpss;

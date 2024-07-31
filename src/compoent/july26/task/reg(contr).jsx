@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-const ControlledReg=()=>{
+const ControlledRegss=()=>{
     const[username,setusername]=useState("")
     const [password,setpassword]=useState("")
     const [last,setlast]=useState("")
@@ -185,4 +185,4 @@ const ControlledReg=()=>{
         
     )
 }
-export default ControlledReg;
+export default ControlledRegss;
