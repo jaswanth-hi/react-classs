@@ -7,7 +7,7 @@ import Invalidscreen from "../../screens/invalid";
 import Userscreen from "../../screens/user";
 
 
-const NavigationStack=()=>{
+const NavigationStacksss=()=>{
     return(
         <BrowserRouter>
         <Routes>
@@ -28,4 +28,4 @@ const NavigationStack=()=>{
         </BrowserRouter>
     )
 }
-export default NavigationStack;
+export default NavigationStacksss;
