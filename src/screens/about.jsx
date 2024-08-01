@@ -7,8 +7,8 @@ const Aboutscreen=()=>{
         <div>
              <Navabar></Navabar>
 
-             <Userabc></Userabc>
-            
+              <Userabc></Userabc>
+             
         </div>
     )
 }

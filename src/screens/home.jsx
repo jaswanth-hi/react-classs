@@ -6,7 +6,7 @@ const Homescreen=()=>{
         <div>
             <Navabar></Navabar>
             <h2>welcome homes screen</h2>
-            <img src="https://jshleap.github.io/assets/images/recipes.jpg" height={1200} width={1200}/>
+            {/* <img src="https://jshleap.github.io/assets/images/recipes.jpg" height={1200} width={1200}/> */}
         </div>
     )
 }

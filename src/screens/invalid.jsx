@@ -1,14 +1,19 @@
-import { Link } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 
 
 
 const Invalidscreen=()=>{
+    const rec=useNavigate()
+
+    const Navig=()=>{
+        rec("/")
+    }
     return(
         <div>
             
             <h2>error 404</h2>
-            <button><Link to={"/"} style={{textDecoration:"none"}}>go to home</Link></button>
+            <button onClick={Navig}>go to home</button>
         </div>
     )
 }

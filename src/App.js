@@ -41,6 +41,7 @@ import Formssexp from './compoent/july26/uncon(api calling)';
 import Controlled from './compoent/july26/controlled compoent';
 import ControlledReg from './compoent/july26/task/reg(contr)';
 import NavigationStack from './compoent/navigations/navigations';
+import NavigationStackdynamic from './compoent/july30/navigation(dynamic)';
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   return (
@@ -69,7 +70,7 @@ function App() {
     //   {/* <Parents></Parents> */}
     //   {/* <Useapp></Useapp> */}
     //   {/* <User2></User2> */}
-    //   {/* <Userabc></Userabc> */}
+    //   {/* <></Userabc> */}
     //   {/* <Bat></Bat> */}
     //   {/* <Cont></Cont>  */}
     //   {/* <Squarels></Squarels> */}
@@ -94,7 +95,8 @@ function App() {
      
     // </div>
     <div>
-      <NavigationStack></NavigationStack>
+      {/* <NavigationStack></NavigationStack> */}
+      <NavigationStackdynamic></NavigationStackdynamic>
     </div>
   );
 }

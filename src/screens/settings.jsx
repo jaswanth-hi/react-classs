@@ -5,7 +5,7 @@ const Settingsscreen=()=>{
     return(
         <div>
             <Navabar></Navabar>
-            <Controlled></Controlled>
+            {/* <Controlled></Controlled> */}
           
         </div>
     )

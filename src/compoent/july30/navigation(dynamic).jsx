@@ -5,9 +5,12 @@ import Blogscreen from "../../screens/blog";
 import Aboutscreen from "../../screens/about";
 import Invalidscreen from "../../screens/invalid";
 import Userscreen from "../../screens/recipesScreen";
+import RecipesDetails from "../../screens/recipesDetails";
+import Policess, { NewPolicess, OldPolicess } from "../../screens/police";
+import Droplist from "../../screens/dropdown";
 
 
-const NavigationStack=()=>{
+const NavigationStackdynamic=()=>{
     return(
         <BrowserRouter>
         <Routes>
@@ -15,9 +18,16 @@ const NavigationStack=()=>{
             <Route path="/setting" element={<Settingsscreen/>} />
             <Route path="/blog" element={< Blogscreen />} />
             <Route path="/about" element={<Aboutscreen />} />
+            <Route path="/police" element={<Policess />}>
+            <Route path="old" element={<OldPolicess/>}/>
+            <Route path="new" element={<NewPolicess/>}/>
+            
+            
+            </Route>
             <Route path="*" element={<Invalidscreen/>}/>
-            <Route path="/user" element={<Userscreen/>}/>
-            <Route path="/user/:userId" element={<Userscreen/>}/>
+            <Route path="/recipes" element={<Userscreen/>}/>
+            <Route path="/recipes/:cuisine/:recipesId" element={<RecipesDetails/>}/>
+            <Route path="/drop" element={<Droplist/>}/>
             
             
 
@@ -28,4 +38,4 @@ const NavigationStack=()=>{
         </BrowserRouter>
     )
 }
-export default NavigationStack;
+export default NavigationStackdynamic;
