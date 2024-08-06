@@ -42,9 +42,40 @@ import Controlled from './compoent/july26/controlled compoent';
 import ControlledReg from './compoent/july26/task/reg(contr)';
 import NavigationStack from './compoent/navigations/navigations';
 import NavigationStackdynamic from './compoent/july30/navigation(dynamic)';
+import { createContext, useState } from 'react';
+export const Datas=createContext();
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
+  const [username,setusername]=useState("jaswanth");
+  const[drak,setdrak]=useState(false);
+  const Changeusername=(newname)=>{
+    setusername(newname)
+  }
+  const Drakss=(newdark)=>{
+    return(
+    setdrak(!drak)
+    )
+  }
+
   return (
+    
+    <div >
+     
+      <Datas.Provider value={{
+        name:username,
+        darkss:drak,
+        Changeusername,
+        Drakss,
+      }}>
+      <NavigationStackdynamic></NavigationStackdynamic>
+      </Datas.Provider>
+    </div>
+
+
+
+
+ /* <NavigationStack></NavigationStack> */
+
     // <div>
     //   {/* <Squarels></Squarels> */}
     //   {/* <Ter></Ter>
@@ -94,10 +125,6 @@ function App() {
 
      
     // </div>
-    <div>
-      {/* <NavigationStack></NavigationStack> */}
-      <NavigationStackdynamic></NavigationStackdynamic>
-    </div>
   );
 }
 

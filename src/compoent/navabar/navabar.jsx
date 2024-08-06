@@ -1,11 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
 import "./nava.css";
+import { useContext } from "react";
+import { Datas } from "../../App";
 
 
 const Navabar=()=>{
+  const usess=useContext(Datas);
     return(
         <div>
-            <nav className="navbar navbar-expand-sm bg-light navbar-light">
+            <nav className={`navbar navbar-expand-sm bg-${usess. darkss? "dark":"light"} navbar-light`}>
     <div className="container-fluid">
       <ul className="navbar-nav">
         <li className="nav-item">

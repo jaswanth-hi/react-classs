@@ -6,6 +6,7 @@ import "./recipes.css";
 
 
 const RecipesDetails=()=>{
+    
     const { recipesId}=useParams()
     const[resp,setresp]=useState({})
    

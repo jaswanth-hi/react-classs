@@ -26,13 +26,7 @@ const Droplist=()=>{
             <h1>recipes</h1>
             {
                 <select>
-                app.map(each=>{
-                    <option>{}</option>
-                    
-                        
-
-                    
-                })
+                
                 </select>
 
             }
