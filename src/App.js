@@ -48,6 +48,7 @@ function App() {
   const Was=["kas","jas","yas","Ras","tas"]
   const [username,setusername]=useState("jaswanth");
   const[drak,setdrak]=useState(false);
+  const [count,setcount]=useState(100)
   const Changeusername=(newname)=>{
     setusername(newname)
   }
@@ -55,6 +56,9 @@ function App() {
     return(
     setdrak(!drak)
     )
+  }
+  const counter=(value)=>{
+    setcount(count +value)
   }
 
   return (
@@ -66,6 +70,8 @@ function App() {
         darkss:drak,
         Changeusername,
         Drakss,
+        count,
+        counter,
       }}>
       <NavigationStackdynamic></NavigationStackdynamic>
       </Datas.Provider>
