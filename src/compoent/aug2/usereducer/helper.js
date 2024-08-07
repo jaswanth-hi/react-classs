@@ -27,7 +27,7 @@ export const reducer=(state,action)=>{
 }
 export const initialState={
     movieTheater:"pvr",
-    movieName:"Devara",
+    movieName:"Deva",
     location:"lulu",
     totalTickets:100,
     bookedTickets:26,

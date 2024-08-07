@@ -23,7 +23,7 @@ const Homescreen=()=>{
             {/* <h2>welcome homes screen  {globaldata.name} {globaldata.count}</h2>
             <RecipesFinder />
 
-            <h1>CountryApi</h1>
+           
             <CounApi/>
             <h1>useredcer</h1>
             <Usereducer></Usereducer>
@@ -35,6 +35,7 @@ const Homescreen=()=>{
            
 
             {/* <img src="https://jshleap.github.io/assets/images/recipes.jpg" height={1200} width={1200}/> */}
+            <h1>CountryApisss</h1>
         </div>
     )
 }

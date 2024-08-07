@@ -55,7 +55,7 @@ const Usereducer=()=>{
     const moviename=()=>{
         dispatchFunction({
             type:actionType.CHANGE_MOVIE,
-            payload:"RRR",
+            payload:"og",
         })
     }
     return(

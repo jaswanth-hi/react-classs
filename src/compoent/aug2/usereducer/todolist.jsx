@@ -71,7 +71,7 @@ const TodoList=()=>{
                     currentState.todos.map((each,ind)=>{
                         <li>
                             {each}
-                            <button onClick={()=>{deletetodo(ind)}}>delete</button>
+                            <button onClick={()=>{deletetodo(ind)}}>deletess</button>
                         </li>
                     })
                 }
