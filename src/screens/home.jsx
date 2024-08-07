@@ -4,6 +4,8 @@ import { Datas } from "../App";
 import "./screen.css";
 import RecipesFinder from "../compoent/aug1/recipessOption";
 import CounApi from "../compoent/aug1/country";
+import Usereducer from "../compoent/aug2/usereducer/usereducer";
+import TodoUseReducer from "../compoent/aug2/usereducer/todolist";
 
 
 
@@ -17,12 +19,15 @@ const Homescreen=()=>{
     return(
         <div className={`${globaldata. darkss ?"dark":"light"}`}>
             <Navabar></Navabar>
-            <h2>welcome homes screen  {globaldata.name} {globaldata.count}</h2>
+            <TodoUseReducer></TodoUseReducer>
+            {/* <h2>welcome homes screen  {globaldata.name} {globaldata.count}</h2>
             <RecipesFinder />
 
             <h1>CountryApi</h1>
             <CounApi/>
-            
+            <h1>useredcer</h1>
+            <Usereducer></Usereducer>
+             */}
 
 
 
