@@ -43,6 +43,7 @@ import ControlledReg from './compoent/july26/task/reg(contr)';
 import NavigationStack from './compoent/navigations/navigations';
 import NavigationStackdynamic from './compoent/july30/navigation(dynamic)';
 import { createContext, useState } from 'react';
+import NavigationRecipes from './compoent/aug3/recipe maker/navigation(recipes)';
 export const Datas=createContext();
 function App() {
   const Was=["kas","jas","yas","Ras","tas"]
@@ -64,8 +65,13 @@ function App() {
   return (
     
     <div >
+     <NavigationRecipes></NavigationRecipes>
      
-      <Datas.Provider value={{
+    </div>
+
+
+
+ /* <Datas.Provider value={{
         name:username,
         darkss:drak,
         Changeusername,
@@ -73,13 +79,8 @@ function App() {
         count,
         counter,
       }}>
-      <NavigationStackdynamic></NavigationStackdynamic>
-      </Datas.Provider>
-    </div>
-
-
-
-
+     
+      </Datas.Provider> */
  /* <NavigationStack></NavigationStack> */
 
     // <div>
