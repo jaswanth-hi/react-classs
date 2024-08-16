@@ -65,13 +65,7 @@ function App() {
   return (
     
     <div >
-     <NavigationRecipes></NavigationRecipes>
-     
-    </div>
-
-
-
- /* <Datas.Provider value={{
+      <Datas.Provider value={{
         name:username,
         darkss:drak,
         Changeusername,
@@ -80,7 +74,15 @@ function App() {
         counter,
       }}>
      
-      </Datas.Provider> */
+      </Datas.Provider> 
+     {/* <NavigationRecipes></NavigationRecipes> */}
+     <NavigationStack></NavigationStack>
+     
+    </div>
+
+
+
+  
  /* <NavigationStack></NavigationStack> */
 
     // <div>

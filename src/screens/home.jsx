@@ -17,7 +17,7 @@ const Homescreen=()=>{
       
     
     return(
-        <div className={`${globaldata. darkss ?"dark":"light"}`}>
+        <div>
             <Navabar></Navabar>
             <TodoUseReducer></TodoUseReducer>
             {/* <h2>welcome homes screen  {globaldata.name} {globaldata.count}</h2>
