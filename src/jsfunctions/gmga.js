@@ -16,3 +16,8 @@
 //     return greetings;
 // }
 // names()
+
+export const iseven=(value)=>{
+   
+    return value%2==0 ? true:false
+}

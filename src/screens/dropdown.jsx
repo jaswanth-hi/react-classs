@@ -14,7 +14,7 @@ const Droplist=()=>{
         <div>
             <Navabar></Navabar>
             <h1>dictionary</h1>
-            <Dict></Dict>
+            {/* <Dict></Dict> */}
 
             {
                
