@@ -6,18 +6,28 @@ import "./screen.css";
 import Profile from "../compoent/aug5/HOC(reatmemo)";
 
 import WeatherApps from "../compoent/weatherApp/weatherApp";
+import { Weatherjs } from "../compoent/aug8/uselatlon";
+import Fakestoreapi from "../compoent/aug8/fakestoreapi/fakestoretable";
+
 
 
 const Blogscreen=(prop)=>{
+    const [data,err]=Weatherjs()
+    console.log(data)
     const defa=useContext(Datas)
     const {}=prop.data
-    console.log(prop)
+    // console.log(prop)
+    Weatherjs();
+    
     return(
         <div >
             <Navabar></Navabar>
-            {
+            {/* {
                 Object.keys(prop.data).length >0 ?<><h3>good morings{prop.data.username}</h3></>:<>pleasewait</>
-            }
+            } */}
+          <h1>abc</h1>
+          <Fakestoreapi></Fakestoreapi>
+
            
              {/* <WeatherApp/> */}
             {/* <WeatherApps /> */}
